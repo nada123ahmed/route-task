@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from '../Footer/Footer'
 import { useTheme } from '../../context/ThemeContext'
+import "./Layout.module.css"
 export default function Layout() {
   const { isDarkMode } = useTheme();
   

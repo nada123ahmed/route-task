@@ -7,7 +7,7 @@ import axios from 'axios';
 import Loader from '../Loader/Loader';
 import { useTheme } from '../../context/ThemeContext';
 import { useCart } from '../../context/CartContext';
-
+import "./ProductDetails.module.css"
 export default function ProductDetails() {
   const { id } = useParams(); 
   const { isDarkMode } = useTheme();

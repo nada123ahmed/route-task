@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../../context/CartContext';
 import { useTheme } from '../../context/ThemeContext';
 import cartisempty from "../../assets/images/2eacfa305d7715bdcd86bb4956209038.jpg";
-
+import "./Cart.module.css"
 export default function CartPage() {
    
     const { cartItems, removeFromCart, clearCart, totalPrice, increaseQuantity, decreaseQuantity } = useCart();
