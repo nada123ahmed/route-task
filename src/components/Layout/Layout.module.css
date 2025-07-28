@@ -1,0 +1,14 @@
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode * {
+  background-color: inherit;
+  color: inherit;
+}
